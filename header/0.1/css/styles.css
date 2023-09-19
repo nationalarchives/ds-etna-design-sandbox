@@ -1,0 +1,213 @@
+body {
+    background-color: #fff;
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    transition: transform 0.2s ease-in, opacity 0.2s ease-in, -webkit-transform 0.2s ease-in;
+    width: 100%;
+    z-index: 10;
+}
+.header-container {
+    box-sizing: border-box;
+    display: flex;
+    background-color: rgba(0,0,0,1);
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+}
+.logo {
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 1rem 1rem 1rem 3rem;
+}
+.menu {
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 1rem 1rem 1rem;
+}
+.search-tab {
+    padding: 1rem 1rem 1rem;
+    background: rgba(255,255,255,0.95);
+}
+.spacer {
+    box-sizing: border-box;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+}
+.strapline {
+    font-family: 'supria-sans-condensed', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    background: #fc0;
+    display: inline-block;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    transform: rotate(180deg);
+    color: #111;
+}
+.menu-item {
+    width: auto;
+    height: 100%;
+    outline-style: none;
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-align: center;
+    align-items: top;
+    border-top-color: transparent;
+    border-top-style: none;
+    border-top-width: 0px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    -webkit-box-pack: center;
+    justify-content: center;
+    letter-spacing: 0.2px;
+    line-height: 22px;
+    text-decoration-line: none;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: #fff;
+    min-height: 55px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 1rem 0 0;
+    list-style-type: none;
+    padding-top: 0.9rem;
+}
+.menu-item li {
+    border-bottom: 1px dotted #666;
+    padding: 0.65rem;
+    margin: 0;
+    min-width: 20rem;
+    margin-top:;
+}
+.menu-item li:last-child {
+    border-bottom: 0;
+}
+.utilities {
+    width: auto;
+    height: 100%;
+    outline-style: none;
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-align: center;
+    align-items: top;
+    border-top-color: transparent;
+    border-top-style: none;
+    border-top-width: 0px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    -webkit-box-pack: center;
+    justify-content: center;
+    letter-spacing: 0.5px;
+    line-height: 22px;
+    text-decoration-line: none;
+    text-transform: uppercase;
+    color: #111;
+    min-height: 55px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 1rem 0 0;
+    padding-top: 0.9rem;
+}
+.menu-item ul {
+     list-style-type: none;
+ }
+.menu-item a {
+    text-decoration: none;
+    color: #fff;
+}
+.menu-item a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+.utilities ul {
+    list-style-type: none;
+    padding: 0;
+}
+.utilities li {
+    border-bottom: 1px dotted #ccc;
+    padding: 0.65rem;
+    margin: 0;
+    min-width: 10rem;
+    margin-top: -1px;
+}
+.utilities a {
+    text-decoration: none;
+    color: #111;
+}
+.utilities li:last-child {
+    border-bottom: 0;
+}
+.utilities svg {
+    margin-right: 7px;
+    margin-top: -3px;
+}
+.logo svg {
+    margin-top: -8px;
+}
+#main {
+    padding: 4rem 0 0 0;
+}
+.image-1 {
+    background: url("https://beta.nationalarchives.gov.uk/media/images/Shapurji-Saklatvala.4700e26b.fill-1440x500-c100.jpg") no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+.image-2 {
+    background: url("https://beta.nationalarchives.gov.uk/media/images/WORK-25_64-B1-SB-_1948-1952.2e16d0ba.fill-1440x500-c100.jpg") no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+
+.sub-menu {
+    padding: 2rem 0 2rem;
+    background: rgba(255,204,0,0.9);
+}
+.sub-menu h2 {
+    font-family: supria-sans-condensed, sans-serif;
+}
+.sub-menu p {
+    width: 75%;
+}
+.sub-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+.sub-menu li {
+    font-family: supria-sans-condensed, sans-serif;
+    font-size: 1.2rem;
+    padding: 0.4rem 0;
+    color: rgba(0,0,0,0.9);
+}
+.sub-menu a {
+    color: #111;
+    padding-right: 0.25rem;
+}
+.menu-item .active {
+    border-bottom: 3px solid #ffcc00;
+}
+
+h1, h2 {
+    margin-bottom: 1rem;
+    font-family: supria-sans-condensed, sans-serif;
+}
+#main h2 {
+    margin-top: 3rem;
+}
