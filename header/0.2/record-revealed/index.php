@@ -74,35 +74,39 @@
 <?php require "../includes/header.php"; ?>
 <?php require "../includes/sub-menu.php"; ?>
 
-<div class="breadcrumb-content govuk-breadcrumbs--collapse-on-mobile">
-    <nav aria-label="Breadcrumb">
-
-        <ul class="breadcrumb govuk-breadcrumbs__list">
-            <li class="govuk-breadcrumbs__list-item">
-                <a data-component-name="Breadcrumb" data-link-type="Breadcrumb link" data-link="Home"
-                   href="https://beta.nationalarchives.gov.uk/">Home</a>
-            </li>
-
-
-            <span class="breadcrumb__separator" aria-hidden="true">&gt;</span>
-            <li class="govuk-breadcrumbs__list-item">
-                <a data-component-name="Breadcrumb" data-link-type="Breadcrumb link" data-link="Explore the collection"
-                   href="https://beta.nationalarchives.gov.uk/explore-the-collection/">Explore the collection</a>
-            </li>
+<div class="tna-breadcrumbs tna-breadcrumbs--collapsed" data-module="tna-breadcrumbs">
+    <div class="tna-container">
+        <nav class="tna-breadcrumbs__wrapper tna-column tna-column--full" aria-label="Breadcrumb">
+            <ol class="tna-breadcrumbs__list" id="tna-breadcrumbs-068f68ba-7c6a-45d8-8225-6cdf3c9a6ec1">
+                <li class="tna-breadcrumbs__item">
+                    <a href="/" class="tna-breadcrumbs__link" data-component-name="Breadcrumb" data-link-type="Breadcrumb link" data-link="Home">
+                        Home
+                    </a>
+                </li>
 
 
-            <span class="breadcrumb__separator" aria-hidden="true">&gt;</span>
-            <li class="govuk-breadcrumbs__list-item">
-                <a data-component-name="Breadcrumb" data-link-type="Breadcrumb link"
-                   data-link="Stories from the collection"
-                   href="https://beta.nationalarchives.gov.uk/explore-the-collection/stories/">Stories from the
-                    collection</a>
-            </li>
 
 
-        </ul>
 
-    </nav>
+
+                <li class="tna-breadcrumbs__item">
+                    <a href="/explore-the-collection/" class="tna-breadcrumbs__link" data-component-name="Breadcrumb" data-link-type="Breadcrumb link" data-link="Explore the collection">
+                        Explore the collection
+                    </a>
+                </li><li class="tna-breadcrumbs__item tna-breadcrumbs__item--expandable" style="display: none;"><button class="tna-breadcrumbs__link" aria-expanded="false" aria-controls="tna-breadcrumbs-068f68ba-7c6a-45d8-8225-6cdf3c9a6ec1"><span class="tna-visually-hidden">Expand breadcrumbs</span>…</button></li>
+
+
+
+                <li class="tna-breadcrumbs__item">
+                    <a href="/explore-the-collection/stories/" class="tna-breadcrumbs__link" data-component-name="Breadcrumb" data-link-type="Breadcrumb link" data-link="Stories from the collection">
+                        Stories from the collection
+                    </a>
+                </li>
+
+
+            </ol>
+        </nav>
+    </div>
 </div>
 
 

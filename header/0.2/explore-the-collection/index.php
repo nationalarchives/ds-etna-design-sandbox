@@ -87,17 +87,18 @@
 <?php require "../includes/sub-menu.php"; ?>
 
 
-<div class="breadcrumb-content govuk-breadcrumbs--collapse-on-mobile">
-    <nav aria-label="Breadcrumb">
-
-        <ul class="breadcrumb govuk-breadcrumbs__list">
-            <li class="govuk-breadcrumbs__list-item">
-                <a data-component-name="Breadcrumb" data-link-type="Breadcrumb link" data-link="Home"
-                   href="https://beta.nationalarchives.gov.uk/">Home</a>
-            </li>
-        </ul>
-
-    </nav>
+<div class="tna-breadcrumbs" data-module="tna-breadcrumbs">
+    <div class="tna-container">
+        <nav class="tna-breadcrumbs__wrapper tna-column tna-column--full" aria-label="Breadcrumb">
+            <ol class="tna-breadcrumbs__list">
+                <li class="tna-breadcrumbs__item">
+                    <a href="/" class="tna-breadcrumbs__link" data-component-name="Breadcrumb" data-link-type="Breadcrumb link" data-link="Home">
+                        Home
+                    </a>
+                </li>
+            </ol>
+        </nav>
+    </div>
 </div>
 
 

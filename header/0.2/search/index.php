@@ -78,67 +78,64 @@
 <main id="maincontent">
 
 
-    <form action="https://beta.nationalarchives.gov.uk/search/featured" method="GET" id="analytics-search-landing-hero">
+    <form action="/search/featured" method="GET" id="analytics-search-landing-hero">
         <div class="search-landing-hero">
-            <div class="search-landing-hero__container">
-                <h1 class="search-landing-hero__heading">Search</h1>
-                <div class="search-landing-hero__form">
-                    <label for="id_q" class="search-landing-hero__label">
-                        <span class="sr-only">Enter search term.</span> For example, naturalisation or medal cards
-                    </label>
+            <div class="tna-container">
+                <div class="tna-column tna-column--full">
+                    <div class="search-landing-hero__container">
+                        <h1 class="tna-heading search-landing-hero__heading">Search</h1>
+                        <div class="search-landing-hero__form">
+                            <label for="id_q" class="search-landing-hero__label">
+                                <span class="sr-only">Enter search term.</span> For example, naturalisation or medal cards
+                            </label>
 
-                    <input type="text" name="q" class="search-results-hero__form-search-box" id="id_q">
-                    <input type="submit" value="Search" class="search-landing-hero__form-submit">
+                            <input type="text" name="q" class="search-results-hero__form-search-box" id="id_q">
+                            <input type="submit" value="Search" class="search-landing-hero__form-submit">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </form>
 
     <div class="search-landing-buckets">
-        <!--
-        <h2 class="search-landing-buckets__heading">
-            Recently added
-        </h2>
-        [Curated list of buckets here]
-        -->
-        <h2 class="search-landing-buckets__heading">
-            See all records from the catalogue
-        </h2>
-        <nav class="search-landing-buckets__container" aria-label="Record categories">
-            <div class="search-landing-buckets">
+        <div class="tna-container">
+            <div class="tna-column tna-column--full">
+                <h2 class="tna-heading search-landing-buckets__heading">
+                    See all records from the catalogue
+                </h2>
+            </div>
+        </div>
+        <nav class="tna-container search-landing-buckets__container" aria-label="Record categories">
+            <div class="tna-column tna-column--full tna-column--no-padding search-landing-buckets">
                 <ul class="search-landing-buckets__list" data-id="search-buckets-list">
 
-                    <li class="search-landing-buckets__list-item">
-                        <a href="https://beta.nationalarchives.gov.uk/search/catalogue/?group=tna"
-                           class="search-landing-buckets__link">
+                    <li class="tna-column search-landing-buckets__list-item">
+                        <a href="/search/catalogue/?group=tna" class="search-landing-buckets__link">
                             Records at The National Archives (20,635,274)
                         </a>
                     </li>
 
-                    <li class="search-landing-buckets__list-item">
-                        <a href="https://beta.nationalarchives.gov.uk/search/catalogue/?group=digitised"
-                           class="search-landing-buckets__link">
+                    <li class="tna-column search-landing-buckets__list-item">
+                        <a href="/search/catalogue/?group=digitised" class="search-landing-buckets__link">
                             Online records at The National Archives (6,892,099)
                         </a>
                     </li>
 
-                    <li class="search-landing-buckets__list-item">
-                        <a href="https://beta.nationalarchives.gov.uk/search/catalogue/?group=nonTna"
-                           class="search-landing-buckets__link">
+                    <li class="tna-column search-landing-buckets__list-item">
+                        <a href="/search/catalogue/?group=nonTna" class="search-landing-buckets__link">
                             Records at other UK archives (8,967,009)
                         </a>
                     </li>
 
-                    <li class="search-landing-buckets__list-item">
-                        <a href="https://beta.nationalarchives.gov.uk/search/catalogue/?group=creator"
-                           class="search-landing-buckets__link">
+                    <li class="tna-column search-landing-buckets__list-item">
+                        <a href="/search/catalogue/?group=creator" class="search-landing-buckets__link">
                             Record creators (270,146)
                         </a>
                     </li>
 
-                    <li class="search-landing-buckets__list-item">
-                        <a href="https://beta.nationalarchives.gov.uk/search/catalogue/?group=archive"
-                           class="search-landing-buckets__link">
+                    <li class="tna-column search-landing-buckets__list-item">
+                        <a href="/search/catalogue/?group=archive" class="search-landing-buckets__link">
                             Find an archive (3,453)
                         </a>
                     </li>
@@ -147,12 +144,6 @@
             </div>
         </nav>
 
-        <!--
-        <h2 class="search-landing-buckets__heading">
-            Browse content about our collections
-        </h2>  
-        [Highlights, Insights, Blogs, Research Guides buckets here]
-        -->
     </div>
 
 </main>
