@@ -17,5 +17,7 @@
         <li><a href="details/index.php">Concept A - Details</a></li>
         <li><a href="current-homepage/index.php">Concept A - Current homepage</a></li>
     </ul>
+
+    <p>These concepts are a progression from version 0.1. They have been put on top of some existing templates just for illustration (Note: the purpose of the above links is focus on the content below of the header bar, but just to see how the heading works if loosely slotted into to some static representations of the pages in their native HTML format rather than in Figma).</p>
 </body>
 </html>
