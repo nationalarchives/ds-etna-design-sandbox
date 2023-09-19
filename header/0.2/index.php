@@ -9,7 +9,6 @@
     <h1>Header - version 0.2</h1>
     <p>Initially created on <i>Tuesday 15th August 2023</i></p>
     <ul>
-        <li><a href="concept-a.php">Concept A</a></li>
         <li><a href="concept-a2.php">Concept A - with cookie banner</a></li>
         <li><a href="explore-the-collection/index.php">Concept A - Explore the collection</a></li>
         <li><a href="record-revealed/index.php">Concept A - Record revealed</a></li>
