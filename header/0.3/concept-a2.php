@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Header v0.2 - TNA design concepts</title>
+    <title>Header v0.3 - TNA design concepts</title>
     <link href="https://cdn.jsdelivr.net/npm/@nationalarchives/frontend@0.1.14-prerelease/nationalarchives/all.css" rel="stylesheet" integrity="sha384-hkx4svJn1A7pWYlzaDRMmtIBBijZdEop+M1Y/H4Hdg8aAqZRJHG56RokLk/eqJYl" crossorigin="anonymous">
     <link rel="stylesheet" href="css/extensions.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&amp;family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;family=Roboto+Mono&amp;display=swap" rel="stylesheet">

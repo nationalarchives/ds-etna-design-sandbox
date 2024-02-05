@@ -2,6 +2,8 @@ let menuButton = document.querySelector('#menu-button');
 let menu = document.querySelector('#sub-menu');
 let NewcloseButton = document.querySelector('#close');
 let mobileMenu = document.querySelector('#mobile-menu');
+let phaseBanner = document.querySelector('#phaseBanner');
+let phaseButton = document.querySelector('#phaseButton');
 
 
 
@@ -58,3 +60,20 @@ window.addEventListener("resize", function() {
         menuButton.classList.remove('selected')
     }
 });
+
+
+// add an event listener to listen for clicks on the menu button
+phaseButton.addEventListener('click', function(e) {
+    e.preventDefault();
+
+        let menuIsClosed = !phaseButton.classList.contains('selected')
+        let menuIsHidden = !phaseBanner.classList.contains('open')
+
+        if (menuIsClosed && menuIsHidden) {
+            phaseButton.classList.add('selected')
+            phaseBanner.classList.add('open')
+        } else {
+            phaseButton.classList.remove('selected')
+            phaseBanner.classList.remove('open')
+        }
+})

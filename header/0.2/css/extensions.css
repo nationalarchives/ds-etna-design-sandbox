@@ -8,7 +8,6 @@ html {
 .tna-header__navigation-item-link {
     font-family: "Roboto", Helvetica, Arial, sans-serif !important;
     font-weight: 400;
-    text-transform: uppercase;
     font-size: 1rem !important;
 
 }
@@ -317,7 +316,7 @@ button:hover {
     z-index: 1;
 }
 .image-2 {
-    background: url("https://beta.nationalarchives.gov.uk/media/images/WORK-25_64-B1-SB-_1948-1952.2e16d0ba.fill-1440x500-c100.jpg") no-repeat;
+    background: url("https://beta.nationalarchives.gov.uk/media/images/louise-bennett-featured-image.2e16d0ba.fill-800x450.jpg") no-repeat;
     background-size: cover;
     height: 375px;
 }

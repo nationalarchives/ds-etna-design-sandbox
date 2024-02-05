@@ -1,4 +1,4 @@
-<div class="tna-phase-banner tna-phase-banner--beta">
+<div class="tna-phase-banner tna-phase-banner--beta" id="phaseBanner">
 
       <span class="tna-phase-banner__phase">
         Beta
